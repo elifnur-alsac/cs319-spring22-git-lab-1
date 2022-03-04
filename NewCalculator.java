@@ -20,10 +20,11 @@ public class NewCalculator {
     }
 
     public double Divide(double dividend, double divisor){
-        this.lastResult = dividend % divisor;
-        return this.lastResult;
+    this.lastResult = dividend / divisor;
+    return this.lastResult;
     }
-    
+
+
     public double Multiply(double x, double y){
       this.lastResult = x * y;
       return this.lastResult;
